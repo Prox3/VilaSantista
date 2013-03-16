@@ -1,17 +1,18 @@
-﻿* {
-      font-family: 'Ebrima', 'Myriad Pro';
-      color:white;
-      font-weight:bold;     
+﻿#footer
+{
+    color: white;
+    font-weight: bold;
 }
+
+
 .footer-top {
-    background-image: url('/images/top-footer.png');
-    background-repeat: repeat-x;
+    background: url(images/top-footer.png) repeat-x;
     height: 39px;
-    margin-top: 15px;
+    margin-top: -9px;
 }
 
 .footer-top-texto {
-    margin-left: 3290px;
+    margin-left: 3255px;
     margin-top: 14px;
   
     width: 500px;
@@ -19,37 +20,38 @@
 }
 
 .footer-top-telefone {
-    margin-left: 4511px;
+    margin-left: 4167px;
     margin-top: -39px;
-    font-family: 'Ebrima', 'Myriad Pro';
+    font-family: Ebrima, 'Myriad Pro';
     width: 500px;
     height: 39px;
 }
 
 
 .footer-bottom {
-    background-image: url('/images/bottom-footer.png');
-    background-repeat: repeat-x;
-    margin-top: 54px;
+    background: url(images/bottom-footer.png) repeat-x;
+    margin-top: 30px;
     height: 94px;
 }
 
 .footer-topo-botao {
-    background-image: url('/images/footer-botao.png');
+    background: url(images/footer-botao.png) repeat-x;
     margin-left: 50%;
     width: 36px;
     height: 17px;
+    margin-top: -23px;
 }
 
 .footer-act-logo {
-    margin-left: 4714px;
-    width: 36px;
-    height: 17px;
+    margin-left: 4369px;
+    width: 106px;
+    height: 29px;
     margin-top: 30px;
+    background: url(images/actmob-footer-logo.png);
 }
 
 .footer-endereco-texto {
-    margin-left: 3525px;
+    margin-left: 3490px;
     margin-top: 20px;
     position: absolute;
     width: 450px;
