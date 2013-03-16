@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="<?= bloginfo( 'template_url' ) ?>/css/print.css" media="print" />
 <!--[if IE]> <link href="<?= bloginfo( 'template_url' ) ?>/css/ie.css" media="screen" rel="stylesheet" type="text/css" ><![endif]-->
 <link href="<?= bloginfo( 'template_url' ) ?>/css/screen.css" media="screen" rel="stylesheet" type="text/css" >
-<link href="<?= bloginfo( 'template_url' ) ?>/css/style2.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="<?= bloginfo( 'template_url' ) ?>/style2.css" media="screen" rel="stylesheet" type="text/css" >
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <script src="<?= bloginfo( 'template_url' ) ?>/js/jquery.js" type="text/javascript"></script>
 <script type="text/javascript">

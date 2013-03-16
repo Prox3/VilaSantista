@@ -2,6 +2,11 @@
 	<div id="conteudo" class="left">
   	<div id="shadow_conteudo"></div>
     <div class="body_folhas left"></div>
+    <div class="body_novidades left">
+    	<div class="body_title_novidades left">
+      	<a target="_self" href="" class="right">[+] carregar mais notícias</a>
+      </div>
+    </div>
 		<div id="artigos">
 		
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

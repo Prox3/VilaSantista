@@ -41,7 +41,13 @@ body{overflow-x:hidden; margin:0 !important}
 #conteudo{width:100%; background:url(images/bg_body.png) repeat-x #d2eb84}
 #shadow_conteudo{width:7000px; height:100%; background:url(images/bg_body.png) repeat-x #d2eb84; position:absolute; margin-left:-3500px; z-index:-9000}
 
-.body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat}
+.body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat; margin-left:-67px}
+
+.body_novidades{width:657px; height:514px; padding-left:16px}
+
+.body_title_novidades{width:656px; height:57px; border-bottom:solid 1px #306663; background:url(images/title_novidades.png) no-repeat}
+.body_title_novidades a{font-family:Ebrima; font-size:13px; color:#849843; text-decoration:none; margin:34px 1px 0 0}
+.body_title_novidades a:hover{text-decoration:underline}
 
 #artigos{
 	width:630px;
