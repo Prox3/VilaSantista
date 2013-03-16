@@ -75,3 +75,11 @@
     z-index: -9010;
     width: 7000px;
 }
+.footer-folhinha {
+background: url(images/footer-folhinha.png) no-repeat;
+position: absolute;
+width: 267px;
+height: 76px;
+margin-top: -80px;
+margin-left: 750px;
+}

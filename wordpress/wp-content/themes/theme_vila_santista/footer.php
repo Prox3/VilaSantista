@@ -16,6 +16,9 @@
             </div>
             <div class="footer-topo-botao">
             </div>
+			<div class="footer-folhinha">
+                
+            </div>
         </div>
 	<?php wp_footer(); ?>
 </div>
