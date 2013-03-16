@@ -6,6 +6,13 @@ Author: Design by ActMob - Developed by Prox3
 Author URI: http://www.actmob.com.br/
 */
 
+@font-face
+{
+font-family: Ebrima;
+src: url('font/ebrima.ttf'),
+     url('font/ebrimabd.ttf');
+}
+
 body{overflow-x:hidden; margin:0 !important}
 
 #header{width:100%; height:533px; background:url(images/bg_header.jpg) repeat-x}
@@ -18,7 +25,19 @@ body{overflow-x:hidden; margin:0 !important}
 .body_navigator{width:680px; height:auto; margin-top:76px}
 
 .body_slogan{width:387px; height:138px; background:url(images/bg_slogan.png) no-repeat; margin-top:56px}
-	
+
+.body_rotatorPhotos{margin-top:37px}
+
+.body_convenio{width:180px; height:129px; margin:44px 128px 0 0}
+#convenio_title{width:100%; height:auto; font-family:Ebrima, "Myriad Pro"; font-size:15px; font-weight:bold; color:#5899af; line-height:19px}
+#convenio_description{width:100%; height:auto; font-family:Ebrima, "Myriad Pro"; font-size:13px; color:#5899af; line-height:18px}
+#bt_saiba_mais{padding:10px 15px; background:#92b034; font-family:Ebrima, "Myriad Pro"; font-size:13px; font-weight:bold; color:#5e7514; text-decoration:none; margin:18px 0 0 30px}
+#bt_saiba_mais:hover{text-decoration:underline}
+
+.body_seja_socio{width:100%; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF}
+#bg_shadow_seja_socio{width:7000px; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF; margin:-1px 0 0 -3500px; z-index:-9000; position:absolute}
+.bt_seja_socio{width:404px; height:137px; margin:-1px 0 0 0; background:url(images/bg_seja_socio.jpg) no-repeat; text-indent:-9000px}
+
 #header h1{
 	font-size:24px;
 	margin-bottom:10px;

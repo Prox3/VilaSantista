@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="<?= bloginfo( 'template_url' ) ?>/css/print.css" media="print" />
 <!--[if IE]> <link href="<?= bloginfo( 'template_url' ) ?>/css/ie.css" media="screen" rel="stylesheet" type="text/css" ><![endif]-->
 <link href="<?= bloginfo( 'template_url' ) ?>/css/screen.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="<?= bloginfo( 'template_url' ) ?>/css/style2.css" media="screen" rel="stylesheet" type="text/css" >
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <script src="<?= bloginfo( 'template_url' ) ?>/js/jquery.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -29,5 +30,17 @@
     		<?php dynamic_sidebar( 'sidebarMenu' ); ?>
     	</div>
       <div class="body_slogan right"></div>
+      <div class="body_rotatorPhotos left">
+      	<?php dynamic_sidebar( 'SidebarPhotos' ); ?>
+      </div>
+      <div class="body_convenio right">
+      	<span id="convenio_title" class="left">Convênio de parceria Clube - Empresa</span>
+        <span id="convenio_description" class="left">Mais qualidade de vida para seus funcionários</span>
+        <a target="_self" href="" id="bt_saiba_mais" class="left">saiba mais</a>
+      </div>
     </div>
 	</div>
+  <div class="body_seja_socio left">
+  	<div id="bg_shadow_seja_socio"></div>
+    <a target="_self" href="" class="bt_seja_socio right">Seja sócio</a>
+  </div>
