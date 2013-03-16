@@ -1,0 +1,64 @@
+﻿* {
+      font-family: 'Ebrima', 'Myriad Pro';
+      color:white;
+      font-weight:bold;     
+}
+.footer-top {
+    background-image: url('/images/top-footer.png');
+    background-repeat: repeat-x;
+    height: 39px;
+    margin-top: 15px;
+}
+
+.footer-top-texto {
+    margin-left: 3290px;
+    margin-top: 14px;
+  
+    width: 500px;
+    height: 39px;
+}
+
+.footer-top-telefone {
+    margin-left: 4511px;
+    margin-top: -39px;
+    font-family: 'Ebrima', 'Myriad Pro';
+    width: 500px;
+    height: 39px;
+}
+
+
+.footer-bottom {
+    background-image: url('/images/bottom-footer.png');
+    background-repeat: repeat-x;
+    margin-top: 54px;
+    height: 94px;
+}
+
+.footer-topo-botao {
+    background-image: url('/images/footer-botao.png');
+    margin-left: 50%;
+    width: 36px;
+    height: 17px;
+}
+
+.footer-act-logo {
+    margin-left: 4714px;
+    width: 36px;
+    height: 17px;
+    margin-top: 30px;
+}
+
+.footer-endereco-texto {
+    margin-left: 3525px;
+    margin-top: 20px;
+    position: absolute;
+    width: 450px;
+    text-align: left;
+}
+
+.fundo {
+    margin-left: -3500px;
+    position: absolute;
+    z-index: -9010;
+    width: 7000px;
+}
