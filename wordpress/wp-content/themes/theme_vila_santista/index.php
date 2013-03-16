@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-	<div id="conteudo">
+	<div id="conteudo" class="left">
+  	<div id="shadow_conteudo"></div>
 		<div id="artigos">
 		
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

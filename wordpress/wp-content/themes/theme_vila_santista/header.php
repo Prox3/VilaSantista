@@ -14,6 +14,9 @@
 <script type="text/javascript">
 	$(document).ready(function(){
     $(".dropdown-horizontal-container").css("background-color", "none");
+		
+		var heightConteudo = $("#conteudo").height();
+		$("#shadow_conteudo").height(heightConteudo);
   });
 </script>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

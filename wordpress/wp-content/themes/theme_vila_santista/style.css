@@ -38,30 +38,8 @@ body{overflow-x:hidden; margin:0 !important}
 #bg_shadow_seja_socio{width:7000px; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF; margin:-1px 0 0 -3500px; z-index:-9000; position:absolute}
 .bt_seja_socio{width:404px; height:137px; margin:-1px 0 0 0; background:url(images/bg_seja_socio.jpg) no-repeat; text-indent:-9000px}
 
-#header h1{
-	font-size:24px;
-	margin-bottom:10px;
-	}
-
-#header h2{
-	font-size:18px;
-	margin-bottom:20px;
-	}
-
-#nav{
-	width:940px;
-	}
-	
-#nav li{
-	display:inline;
-	margin-right:30px;
-	}
-
-#conteudo{
-	width:940px;
-	margin:10px;
-	float:left;
-	}
+#conteudo{width:100%; background:url(images/bg_body.png) repeat-x #d2eb84}
+#shadow_conteudo{width:7000px; height:100%; background:url(images/bg_body.png) repeat-x #d2eb84; position:absolute; margin-left:-3500px; z-index:-9000}
 
 #artigos{
 	width:630px;
