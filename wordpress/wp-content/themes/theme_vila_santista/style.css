@@ -41,6 +41,8 @@ body{overflow-x:hidden; margin:0 !important}
 #conteudo{width:100%; background:url(images/bg_body.png) repeat-x #d2eb84}
 #shadow_conteudo{width:7000px; height:100%; background:url(images/bg_body.png) repeat-x #d2eb84; position:absolute; margin-left:-3500px; z-index:-9000}
 
+.body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat}
+
 #artigos{
 	width:630px;
 	float:left;
