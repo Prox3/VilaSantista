@@ -43,49 +43,14 @@ body{overflow-x:hidden; margin:0 !important}
 
 .body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat; margin-left:-67px}
 
-.body_novidades{width:657px; height:514px; padding-left:16px}
+.body_novidades{width:672px; height:514px; padding-left:16px; margin-bottom:19px}
 
-.body_title_novidades{width:656px; height:57px; border-bottom:solid 1px #306663; background:url(images/title_novidades.png) no-repeat}
+.body_title_novidades{width:656px; height:57px; border-bottom:solid 1px #306663; background:url(images/title_novidades.png) no-repeat; margin-bottom:19px}
 .body_title_novidades a{font-family:Ebrima; font-size:13px; color:#849843; text-decoration:none; margin:34px 1px 0 0}
 .body_title_novidades a:hover{text-decoration:underline}
 
-#artigos{
-	width:630px;
-	float:left;
-	}
-	
-.artigo{
-	width:630px;
-	margin-bottom:30px;
-	float:left;
-	}
-	
-.artigo h1{
-	font-size:20px;
-	margin-bottom:10px;
-	}
-	
-.artigo h2{
-	font-size:16px;
-	margin-bottom:10px;
-	}
-
-.artigo p{
-	margin-bottom:10px;
-	}
-	
-.navegacao{
-	width:630px;
-	float:left;
-	}
-	
-.recentes{
-	float:left;
-	}
-
-.anteriores{
-	float:right;
-	}
+.body_post_destaque{width:210px; height:206px; margin:0 14px 14px 0}
+.body_post_destaque img{position:absolute; z-index:0}
 
 #comments{
 	width:630px;
@@ -146,7 +111,7 @@ ol.commentlist ul li{
 	}
 	
 #sidebar{
-	width:300px;
+	width:280px;
 	float:right;
 	}
 	
