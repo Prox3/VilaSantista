@@ -1,7 +1,6 @@
 ﻿#footer
 {
     color: white;
-    font-weight: bold;
 }
 
 
@@ -12,11 +11,23 @@
 }
 
 .footer-top-texto {
-    margin-left: 3255px;
+    margin-left: 3310px;
     margin-top: 14px;
-  
-    width: 500px;
+    width: 900px;
     height: 39px;
+}
+
+.footer-top-texto li
+{
+    display: inline;
+    margin-right: 10px;
+    
+}
+.footer-top-texto li a
+{
+    text-decoration: none;
+    color: white;
+    
 }
 
 .footer-top-telefone {

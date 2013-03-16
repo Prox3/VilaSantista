@@ -1,8 +1,9 @@
 	<div id="footer" class="left">
 			
             <div class="footer-top fundo">
-                <div class="footer-top-texto"><?php wp_nav_menu( array('menu' => 'MenuFooter' )); ?></div>
-                <div class="footer-top-telefone">4646-4646 / 6464/6464</div>
+                <div class="footer-top-texto"><?php wp_nav_menu( array('menu' => 'MenuFooter' )); ?>
+</div>
+                <div class="footer-top-telefone">11 4794 3654 / 11 4790 2677</div>
             </div>
             <div class="footer-bottom fundo">
                 <div class="footer-endereco-texto">
