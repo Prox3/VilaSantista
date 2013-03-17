@@ -17,6 +17,11 @@
 		
 		var heightConteudo = $("#conteudo").height();
 		$("#shadow_conteudo").height(heightConteudo);
+		
+		$.map($(".ul_event li .date_event"), function(m,index){ 
+			var txt = $(m).text().substring(0, ($(m).text().length - 4) );
+			$(m).text(txt);
+		});
   });
 </script>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />

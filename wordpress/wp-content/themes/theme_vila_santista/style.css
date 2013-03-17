@@ -8,9 +8,10 @@ Author URI: http://www.actmob.com.br/
 
 @font-face
 {
-font-family: Ebrima;
+font-family: Ebrima, "Bebas Neue";
 src: url('font/ebrima.ttf'),
-     url('font/ebrimabd.ttf');
+     url('font/ebrimabd.ttf'),
+ 		 url('BebasNeue.otf');
 }
 
 body{overflow-x:hidden; margin:0 !important}
@@ -43,14 +44,43 @@ body{overflow-x:hidden; margin:0 !important}
 
 .body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat; margin-left:-67px}
 
-.body_novidades{width:672px; height:514px; padding-left:16px; margin-bottom:19px}
+.body_novidades{width:672px; height:514px; margin:0 0 19px -14px}
 
-.body_title_novidades{width:656px; height:57px; border-bottom:solid 1px #306663; background:url(images/title_novidades.png) no-repeat; margin-bottom:19px}
+.body_title_novidades{width:656px; height:57px; border-bottom:solid 1px #306663; background:url(images/title_novidades.png) no-repeat; margin:0 0 19px 14px}
 .body_title_novidades a{font-family:Ebrima; font-size:13px; color:#849843; text-decoration:none; margin:34px 1px 0 0}
 .body_title_novidades a:hover{text-decoration:underline}
 
-.body_post_destaque{width:210px; height:206px; margin:0 14px 14px 0}
+.body_post_destaque{width:210px; height:206px; margin:0 0 14px 14px}
 .body_post_destaque img{position:absolute; z-index:0}
+.body_title_destaque{width:198px; height:32px; background:#417167; padding:12px 6px; position:absolute; z-index:10; margin-top:150px; font-family:Ebrima; font-size:13px; color:#ffffff; font-weight:bold; text-decoration:none}
+
+.body_events{width:330px; height:320px; background:#4c9aa7; padding:12px 0 0 13px; margin-right:13px; margin-bottom:65px}
+.body_title_events{width:266px; height:52px; background:url(images/bg_title_next_event.png) no-repeat; margin-bottom:23px}
+
+.ul_event{padding:0; list-style-type:none; width:312px}
+.li_event{width:100%; border-bottom:dotted 1px #FFF; margin-bottom:5px}
+.date_event{font-family:"Bebas Neue", "Myriad Pro"; font-size:24px; color:#FFF; margin-right:12px}
+.title_event_unique{font-family:Ebrima, "Myriad Pro"; font-size:13px; color:#245855; margin-top:10px}
+
+.bt_agenda_eventos{padding:8px 26px; background:#2f7c89; font-family:"Bebas Neue", "Myriad Pro"; font-size:20px; color:#22545c; text-decoration:none; margin:-5px 0 0 70px}
+.bt_agenda_eventos:hover{color:#22545c; text-decoration:underline}
+
+.box_location{width:318px; height:91px; background:url(images/bg_locacao.png) no-repeat; padding-top:228px}
+.box_location span{width:100%; height:auto; float:left; font-family:"Bebas Neue", "Myriad Pro"; font-size:20px; color:#647a21; text-align:left; line-height:26px; letter-spacing:1px}
+.box_location a{width:100%; height:auto; float:left; font-family:Ebrima, "Myriad Pro"; font-size:12px; color:#647a21; text-align:left; text-decoration:none; margin-top:10px}
+.box_location a:hover{color:#647a21; text-decoration:underline}
+
+.sidebar{width:296px; height:auto}
+#sidebar{float:left}
+
+.body_social{width:251px; height:53px; background:url(images/title_social.png) no-repeat; padding:70px 0 0 45px; margin-bottom:40px}
+.body_social a{width:54px; height:54px; background:url(images/bg_link_social.png) no-repeat; text-indent:-9000px; float:left; margin-right:21px}
+#social_twitter{background-position:center}
+#social_rss{background-position:right}
+
+.body_banner{float:left; margin-bottom:12px}
+
+.body_patrocinio{width:100%; height:24px; background:url(images/title_patrocinadores.png) no-repeat; margin-bottom:12px}
 
 #comments{
 	width:630px;
@@ -108,21 +138,6 @@ ol.commentlist ul li{
 #respond form input.commentsubmit{
 	float:left;
 	margin-left:70px;
-	}
-	
-#sidebar{
-	width:280px;
-	float:right;
-	}
-	
-.widget{
-	width:300px;
-	margin-bottom:20px;
-	}
-	
-.widget h3{
-	font-size:14px;
-	margin-bottom:10px;
 	}
 	
 #footer{
