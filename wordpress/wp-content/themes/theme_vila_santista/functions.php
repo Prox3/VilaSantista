@@ -14,4 +14,14 @@ if (function_exists('register_sidebar'))
 
 add_theme_support( 'post-thumbnails' );
 
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function teste_shortcode( $atts, $content = null ) {
+   return '<span class="caption">' . $content . '</span>';
+}
+add_shortcode( 'teste', 'teste_shortcode' );
+
 ?>

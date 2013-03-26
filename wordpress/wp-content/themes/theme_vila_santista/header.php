@@ -22,6 +22,16 @@
 			var txt = $(m).text().substring(0, ($(m).text().length - 4) );
 			$(m).text(txt);
 		});
+		
+		$(".body_post_destaque").hover(function(){
+			$(this).find(".body_content_part").slideToggle()
+		});
+		
+		$(".upzslider").append("<a target='_self' href='' class='bt_banner_ver_mais'>ver mais fotos</a>");
+		
+		$(".footer-topo-botao").click(function(){
+			$("body").scrollTop(0);
+		});
   });
 </script>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -30,7 +40,7 @@
 </head>
 <body>
 <div class="container">
-	<div id="header" class="left">
+	<div id="header" class="left" <?php if (is_category() || is_page()) { echo "style='height:314px'";} ?>>
   	<div id="bg_header"></div>
   	<div id="bg_nuvens">
     	<a class="logo left" target="_self" href="">Logo Vila Santista</a>
@@ -38,17 +48,21 @@
     		<?php dynamic_sidebar( 'sidebarMenu' ); ?>
     	</div>
       <div class="body_slogan right"></div>
-      <div class="body_rotatorPhotos left">
-      	<?php dynamic_sidebar( 'SidebarPhotos' ); ?>
-      </div>
-      <div class="body_convenio right">
-      	<span id="convenio_title" class="left">Convênio de parceria Clube - Empresa</span>
-        <span id="convenio_description" class="left">Mais qualidade de vida para seus funcionários</span>
-        <a target="_self" href="" id="bt_saiba_mais" class="left">saiba mais</a>
-      </div>
+      <?php if (!is_category() && !is_page()) { ?>
+        <div class="body_rotatorPhotos left">
+					<?php do_shortcode('[upzslider usingphp=true]'); ?>
+        </div>
+        <div class="body_convenio right">
+          <span id="convenio_title" class="left">Convênio de parceria Clube - Empresa</span>
+          <span id="convenio_description" class="left">Mais qualidade de vida para seus funcionários</span>
+          <a target="_self" href="" id="bt_saiba_mais" class="left">saiba mais</a>
+        </div>
+    	<?php } ?>
     </div>
 	</div>
+  <?php if (!is_category() && !is_page()) { ?>
   <div class="body_seja_socio left">
   	<div id="bg_shadow_seja_socio"></div>
     <a target="_self" href="" class="bt_seja_socio right">Seja sócio</a>
   </div>
+  <?php } ?>

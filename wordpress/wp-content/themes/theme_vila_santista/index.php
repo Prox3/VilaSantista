@@ -14,7 +14,10 @@
           <div class="body_title_destaque">
           	<?php the_title(); ?>
           </div>
-					<!--<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+          <div class="body_content_part">
+          	<?php the_excerpt(); ?>
+          </div>
+					<!--
 					<p>Postado por <?php the_author() ?> em <?php the_time('d/M/Y') ?> - <?php comments_popup_link('Sem Comentários', '1 Comentário', '% Comentários', 'comments-link', ''); ?> <?php edit_post_link('(Editar)'); ?></p>
 					<p><?php the_content(); ?></p>-->
 				</div>

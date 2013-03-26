@@ -1,85 +1,22 @@
-﻿#footer
-{
-    color: white;
-}
+﻿#footer{color: white}
 
+.footer-top{background: url(images/top-footer.png) repeat-x; height: 39px; margin-top: -9px;}
 
-.footer-top {
-    background: url(images/top-footer.png) repeat-x;
-    height: 39px;
-    margin-top: -9px;
-}
+.footer-top-texto{margin-top:3px; width: 900px; height: 27px;}
 
-.footer-top-texto {
-    margin-left: 3310px;
-    margin-top: 14px;
-    width: 900px;
-    height: 39px;
-}
+.footer-top-texto li{display: inline; margin-right:10px}
+.footer-top-texto li a{text-decoration:none; color: white}
 
-.footer-top-texto li
-{
-    display: inline;
-    margin-right: 10px;
-    
-}
-.footer-top-texto li a
-{
-    text-decoration: none;
-    color: white;
-    
-}
+.footer-top-telefone{margin-left: 864px; margin-top:-25px; font-family: Ebrima, 'Myriad Pro'; width:148px; height: 25px;}
 
-.footer-top-telefone {
-    margin-left: 4167px;
-    margin-top: -39px;
-    font-family: Ebrima, 'Myriad Pro';
-    width: 500px;
-    height: 39px;
-}
+.footer-bottom {background: url(images/bottom-footer.png) repeat-x; height: 94px}
 
+.footer-topo-botao {background: url(images/footer-botao.png) no-repeat; margin-left: 50%; width: 36px; height: 17px; margin-top: -113px; cursor:pointer}
 
-.footer-bottom {
-    background: url(images/bottom-footer.png) repeat-x;
-    margin-top: 30px;
-    height: 94px;
-}
+.footer-act-logo{margin-left:900px; width: 106px; height: 29px; margin-top: 30px; background: url(images/actmob-footer-logo.png);}
 
-.footer-topo-botao {
-    background: url(images/footer-botao.png) repeat-x;
-    margin-left: 50%;
-    width: 36px;
-    height: 17px;
-    margin-top: -23px;
-}
+.footer-endereco-texto {margin-top: 20px; position: absolute; width: 450px; text-align: left;}
 
-.footer-act-logo {
-    margin-left: 4369px;
-    width: 106px;
-    height: 29px;
-    margin-top: 30px;
-    background: url(images/actmob-footer-logo.png);
-}
+.fundo{position: absolute; z-index: -9010; width:100%; left:0}
 
-.footer-endereco-texto {
-    margin-left: 3490px;
-    margin-top: 20px;
-    position: absolute;
-    width: 450px;
-    text-align: left;
-}
-
-.fundo {
-    margin-left: -3500px;
-    position: absolute;
-    z-index: -9010;
-    width: 7000px;
-}
-.footer-folhinha {
-background: url(images/footer-folhinha.png) no-repeat;
-position: absolute;
-width: 267px;
-height: 76px;
-margin-top: -80px;
-margin-left: 750px;
-}
+.footer-folhinha {background: url(images/footer-folhinha.png) no-repeat; position: absolute; width: 267px; height: 76px; margin-top: -80px; margin-left: 750px;}

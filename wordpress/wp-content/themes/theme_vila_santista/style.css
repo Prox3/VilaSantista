@@ -8,41 +8,44 @@ Author URI: http://www.actmob.com.br/
 
 @font-face
 {
-font-family: Ebrima, "Bebas Neue";
+font-family: Ebrima, "Bebas Neue", populaire;
 src: url('font/ebrima.ttf'),
      url('font/ebrimabd.ttf'),
- 		 url('BebasNeue.otf');
+		 url('font/populaire.eot'),
+		 url('font/populaire.otf'),
+		 url('font/populaire.ttf'),
+ 		 url('font/BebasNeue.otf');
 }
 
 body{overflow-x:hidden; margin:0 !important}
 
 #header{width:100%; height:533px; background:url(images/bg_header.jpg) repeat-x}
-#bg_header{width:7000px; height:533px; background:url(images/bg_header.jpg) repeat-x; position:absolute; margin-left:-3500px; z-index:-9000}
+#bg_header{width:100%; height:533px; background:url(images/bg_header.jpg) repeat-x; position:absolute; z-index:-9000; top:0; left:0}
 
 #bg_nuvens{width:1028px; height:359px; background:url(images/bg_nuvens.png) no-repeat; position:absolute; margin-left:-10px; z-index:0}
 
 .logo{width:230px; height:205px; background:url(images/bg_logo.png) no-repeat; z-index:9000; text-indent:-9000px; margin:30px 0 0 15px}
 
-.body_navigator{width:680px; height:auto; margin-top:76px}
+.body_navigator{width:700px; height:auto; margin-top:76px}
 
 .body_slogan{width:387px; height:138px; background:url(images/bg_slogan.png) no-repeat; margin-top:56px}
 
-.body_rotatorPhotos{margin-top:37px}
+.body_rotatorPhotos{margin-top:37px; width:531px; height:386px}
 
-.body_convenio{width:180px; height:129px; margin:44px 128px 0 0}
+.body_convenio{width:286px; height:129px; margin:68px 78px 0 0}
 #convenio_title{width:100%; height:auto; font-family:Ebrima, "Myriad Pro"; font-size:15px; font-weight:bold; color:#5899af; line-height:19px}
 #convenio_description{width:100%; height:auto; font-family:Ebrima, "Myriad Pro"; font-size:13px; color:#5899af; line-height:18px}
-#bt_saiba_mais{padding:10px 15px; background:#92b034; font-family:Ebrima, "Myriad Pro"; font-size:13px; font-weight:bold; color:#5e7514; text-decoration:none; margin:18px 0 0 30px}
+#bt_saiba_mais{padding:10px 15px; background:#92b034; font-family:Ebrima, "Myriad Pro"; font-size:13px; font-weight:bold; color:#5e7514; text-decoration:none; margin:18px 0 0 76px}
 #bt_saiba_mais:hover{text-decoration:underline}
 
 .body_seja_socio{width:100%; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF}
-#bg_shadow_seja_socio{width:7000px; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF; margin:-1px 0 0 -3500px; z-index:-9000; position:absolute}
+#bg_shadow_seja_socio{width:100%; height:136px; background:#a4bf4c; border-top:solid 1px #FFF; border-bottom:solid 1px #FFF; margin-top:-1px; z-index:-9000; position:absolute; left:0}
 .bt_seja_socio{width:404px; height:137px; margin:-1px 0 0 0; background:url(images/bg_seja_socio.jpg) no-repeat; text-indent:-9000px}
 
 #conteudo{width:100%; background:url(images/bg_body.png) repeat-x #d2eb84}
-#shadow_conteudo{width:7000px; height:100%; background:url(images/bg_body.png) repeat-x #d2eb84; position:absolute; margin-left:-3500px; z-index:-9000}
+#shadow_conteudo{width:100%; height:100%; background:url(images/bg_body.png) repeat-x #d2eb84; position:absolute; z-index:-9000; left:0}
 
-.body_folhas{width:1135pc; height:60px; background:url(images/bg_folhas.png) no-repeat; margin-left:-67px}
+.body_folhas{width:1135px; height:60px; background:url(images/bg_folhas.png) no-repeat; margin-left:-67px}
 
 .body_novidades{width:672px; height:514px; margin:0 0 19px -14px}
 
@@ -50,8 +53,8 @@ body{overflow-x:hidden; margin:0 !important}
 .body_title_novidades a{font-family:Ebrima; font-size:13px; color:#849843; text-decoration:none; margin:34px 1px 0 0}
 .body_title_novidades a:hover{text-decoration:underline}
 
-.body_post_destaque{width:210px; height:206px; margin:0 0 14px 14px}
-.body_post_destaque img{position:absolute; z-index:0}
+.body_post_destaque{width:210px; height:206px; margin:0 0 14px 14px; position:relative}
+.body_post_destaque img{position:absolute; z-index:0; width:210px !important; height:206px !important}
 .body_title_destaque{width:198px; height:32px; background:#417167; padding:12px 6px; position:absolute; z-index:10; margin-top:150px; font-family:Ebrima; font-size:13px; color:#ffffff; font-weight:bold; text-decoration:none}
 
 .body_events{width:330px; height:320px; background:#4c9aa7; padding:12px 0 0 13px; margin-right:13px; margin-bottom:65px}
@@ -70,7 +73,7 @@ body{overflow-x:hidden; margin:0 !important}
 .box_location a{width:100%; height:auto; float:left; font-family:Ebrima, "Myriad Pro"; font-size:12px; color:#647a21; text-align:left; text-decoration:none; margin-top:10px}
 .box_location a:hover{color:#647a21; text-decoration:underline}
 
-.sidebar{width:296px; height:auto}
+.sidebar{width:296px; height:auto; margin-bottom:95px}
 #sidebar{float:left}
 
 .body_social{width:251px; height:53px; background:url(images/title_social.png) no-repeat; padding:70px 0 0 45px; margin-bottom:40px}
@@ -82,67 +85,37 @@ body{overflow-x:hidden; margin:0 !important}
 
 .body_patrocinio{width:100%; height:24px; background:url(images/title_patrocinadores.png) no-repeat; margin-bottom:12px}
 
-#comments{
-	width:630px;
-	float:left;
-	border-top:1px solid #bebebe;
-	}
+.title_newsletter{width:100%; height:auto; color:#306663; font-size:21px; font-family:Populaire}
+p.prepend{width:100%; height:auto; font-size:14px; font-family:Ebrima; color:#647a21}
+.sml_emailinput{width:231px; height:33px; background:#e0f1aa !important; color:#b6c781; font-family:Ebrima; font-size:12px; padding:5px; border:none !important; float:left}
+.sml_submitbtn{width:49px; height:43px; background:url(images/bg_bt_newsletter.png) no-repeat; border:none; float:left; text-indent:-9000px; margin-top:6px; cursor:pointer}
 
-#comments h3{
-	font-size:14px;
-	margin:20px 0;
-	}
-	
-ol.commentlist{
-	list-style:none;
-	}
-	
-ol.commentlist li{
-	margin-bottom:30px;
-	}
-	
-ol.commentlist ul{
-	margin:0px;
-	}
-	
-ol.commentlist ul li{
-	margin:20px 20px 20px 40px;
-	}
-	
-#respond{
-	margin:0 0 30px 0;
-	clear:both;
-	}
-	
-#respond form label{
-	float:left;
-	clear:left;
-	width:60px;
-	text-align:right;
-	margin-right:10px;
-	}
-	
-#respond form input{
-	float:left;
-	width:250px;
-	margin-bottom:10px;
-	}
-	
-#respond form textarea{
-	float:left;
-	width:400px;
-	height:100px;
-	margin-bottom:10px;
-	}
-	
-#respond form input.commentsubmit{
-	float:left;
-	margin-left:70px;
-	}
-	
-#footer{
-	width:940px;
-	margin:10px;
-	font-size:11px;
-	text-align:center;
-	}
+.title_content{width:100%; height:auto; font-size:28px; color:#393; font-family:Arial; font-style:italic; margin-bottom:10px}
+.content_text{width:100%; height:auto}
+
+.info_author_post{width:100%; height:auto; font-family:Ebrima; font-size:13px; color:#647a21; font-style:italic; margin-bottom:10px}
+
+.row_contact{width:300px; height:auto; margin:0 10px 10px 0}
+.row_contact_area{width:620px; height:auto; margin:0 0 10px 0}
+.row_contact label{float:left; width:100%; height:auto}
+.wpcf7-text{width:100%; height:28px; float:left; border-radius:3px}
+.wpcf7-textarea{width:602px; height:102px; float:left; border-radius:3px}
+.wpcf7-submit{padding:10px 15px; background:#92b034; font-family: Ebrima, "Myriad Pro"; font-size: 13px; font-weight: bold; color: #5e7514; border:none !important}
+
+#footer{width:940px; margin:10px; font-size:11px;}
+
+.body_content_part{width: 198px; height: 126px; background:#417167; padding:12px 6px; position: absolute; z-index:8; font-family:Ebrima; font-size:13px; color:#ffffff; font-weight: bold; text-decoration: none; opacity:0.8; display:none; bottom:56px;left:0}
+
+.upzslider{padding:10px; width:509px !important; height:364px !important}
+#upz-slideshow-display{width:511px; height:292px}
+#featured ul#upz-slideshow-navigation{width:519px !important; height:66px; float:left !important; margin-top:318px !important; padding-left:10px}
+#featured ul#upz-slideshow-navigation li{width:71px !important; height:61px !important; text-indent:-9000px; margin-right:14px}
+#upz-slideshow-display div a img{width:511px !important; height:292px !important}
+#upz-slideshow-display div .info{width:86%; height:62px !important; background:url(images/bg_bt_more_notice.png) right no-repeat #a1bf43; border:none !important; opacity:0.8; margin:0; padding:0 72px 0 0}
+#upz-slideshow-display div .info h2, #upz-slideshow-display div .info p{color:#FFF}
+#upz-slideshow-navigation li img{width:71px !important; height:61px !important}
+
+.bt_banner_ver_mais{width:125px; background:#79c6e0; color:#FFF; text-align:center; padding:22px; font-weight:bold; text-decoration:none; position:absolute; margin:15px 0 0 341px}
+.bt_banner_ver_mais:hover{color:#FFF; text-decoration:underline}
+
+ul.dropdown li a{font-size:23px !important}
